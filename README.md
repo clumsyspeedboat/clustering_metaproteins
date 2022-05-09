@@ -1,5 +1,5 @@
 # NodeClust
 A plug-in to perform clustering in Neo4j.
 
-![Untitled Diagram drawio (3)](https://user-images.githubusercontent.com/57228346/167424585-430d920a-95bb-480f-b9c4-f79f4180e39c.png)
+![Untitled Diagram drawio (4)](https://user-images.githubusercontent.com/57228346/167425004-a9df5506-c5f5-4cc3-9ceb-defded4d14e7.png)
 
