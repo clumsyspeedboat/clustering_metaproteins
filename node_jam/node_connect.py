@@ -16,7 +16,7 @@ def load_config(configuration):
     """Function to load configuration settings from yaml file
 
     Args:
-        configuration (_type_): _description_
+        configuration (dictionary): _description_
     """
     global config
     with open(configuration) as config_file: 
@@ -27,7 +27,7 @@ def upload_metaprotein_nodes(connection, node_list):
     """Function to upload metaproteins as nodes from csv file
 
     Args:
-        connection (_type_): _description_
+        connection (object of class Neo4jConnection): _description_
         node_list (dataframe): dataframe with each row/instance being one metaprotein node with the variables being node attributes
     """
     upload_query = """
