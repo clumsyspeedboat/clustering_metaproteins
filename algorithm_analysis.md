@@ -16,13 +16,12 @@
 #### Note : All points are plotted on principal component axes
 ########################################################################################################
 
-### Silhouette analysis to find optimal k (number of clusters) for sklearn.cluster.SpectralClustering
+### Cluster analysis (number of clusters = 3) for sklearn.cluster.SpectralClustering
 
-![image](https://user-images.githubusercontent.com/57228346/196411321-a0a08f03-f8b9-4352-a540-85c5390a6251.png)
+![image](https://user-images.githubusercontent.com/57228346/196718278-c9c8c368-9855-4c1d-a271-6844ab0a43de.png)
 
-* Inferior cluster separation with most silhouette values under 0
-* PCA (2 components) was performed on the normalized dataframe and it decreased cluster seperation, which shows it might be a redundant step for spectral analysis
-* However, for 3 clusters, normalized and PCA(normalized) had similar cluster seperation
+* Inferior cluster separation for original silhouette values under 0 and adjusted randsignificantly close to 0
+* PCA (2 components) was performed on the normalized dataframe and it slightly decreased cluster seperation, which shows it might be a redundant step for spectral analysis
 
 ### Spectral Clustering for k = 3 using sklearn.cluster.SpectralClustering, σ = unknown
 
@@ -31,7 +30,7 @@
 **Normalized(Original) Data**
   ![image](https://user-images.githubusercontent.com/57228346/196416087-52ddd985-1c95-4bdb-a13f-6c64975d244c.png)
 **PCA(Normalized) Data**
-  ![image](https://user-images.githubusercontent.com/57228346/196416119-bd3beeae-d5da-4386-918c-2fc0a40fb241.png)
+  ![image](https://user-images.githubusercontent.com/57228346/196723034-74e93d9d-5278-421a-953a-59e14662579b.png)
   
 * While Normalized(Original) data provides the best cluster seperation, PCA(normalized) provides best results in separating class labels.
 
