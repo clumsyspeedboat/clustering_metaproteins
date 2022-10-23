@@ -16,9 +16,14 @@
 #### Note : All points are plotted on principal component axes
 ########################################################################################################
 
-### Cluster analysis (number of clusters = 3) for sklearn.cluster.SpectralClustering
+### Cluster analysis (number of clusters = 3) 
 
-![image](https://user-images.githubusercontent.com/57228346/196718278-c9c8c368-9855-4c1d-a271-6844ab0a43de.png)
+##### Spectral clustering on original, normalized(original) and PCA(normalized) data
+<img src = "https://user-images.githubusercontent.com/57228346/196718278-c9c8c368-9855-4c1d-a271-6844ab0a43de.png" width = "500">
+
+##### KMeans on unnormalized and normalized eigen (NJW algorithm) of original data
+<img src = "https://user-images.githubusercontent.com/57228346/196930331-00fa4755-b495-490f-84ec-b8827df65b69.png" width = "500">
+
 
 * Inferior cluster separation for original silhouette values under 0 and adjusted randsignificantly close to 0
 * PCA (2 components) was performed on the normalized dataframe and it slightly decreased cluster seperation, which shows it might be a redundant step for spectral analysis
@@ -32,7 +37,7 @@
 **PCA(Normalized) Data**
   ![image](https://user-images.githubusercontent.com/57228346/196723034-74e93d9d-5278-421a-953a-59e14662579b.png)
   
-* While Normalized(Original) data provides the best cluster seperation, PCA(normalized) provides best results in separating class labels.
+* Normalized(Original) data provides the best cluster seperation, as well as class label separation.
 
 
 
