@@ -28,8 +28,10 @@
   ![image](https://user-images.githubusercontent.com/57228346/196416057-39a6b836-5962-44d8-8921-b0359cbf6ef5.png)
 **Normalized(Original) Data**
   ![image](https://user-images.githubusercontent.com/57228346/196416087-52ddd985-1c95-4bdb-a13f-6c64975d244c.png)
-**PCA(Normalized) Data**
+**PCA(Normalized) Data, components = 2**
   ![image](https://user-images.githubusercontent.com/57228346/196723034-74e93d9d-5278-421a-953a-59e14662579b.png)
+**PCA(Normalized) Data, components = 3**  
+  ![image](https://user-images.githubusercontent.com/57228346/197422664-1f69ba58-dbcd-4442-aa69-6fd4e5cc5990.png)
   
 * Normalized(Original) data provides the best cluster seperation, as well as class label separation.
 * Inferior cluster separation for original silhouette values under 0 and adjusted randsignificantly close to 0
@@ -79,7 +81,7 @@
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
-### Eigen(PCA data)
+### Eigen(PCA data, components = 2)
 
 #### Optimal sigma for adjacency matrix in NJW algorithm
 * Sigma for highest rand index = 0.35
@@ -89,7 +91,7 @@
 <img src = "https://user-images.githubusercontent.com/57228346/197421418-112b6d14-7990-4621-bb99-299bd5ea1507.png" width = "600">
 
 
-##### KMeans on unnormalized and normalized eigen (NJW algorithm) of pca data, k = 3, sigma = 0.75 (unnormalized) and 0.05 (normalized)
+##### KMeans on unnormalized and normalized eigen (NJW algorithm) of pca data, k = 3, sigma = 0.35 (unnormalized) and 0.20 (normalized)
 <img src = "https://user-images.githubusercontent.com/57228346/197421866-88f33018-624c-4544-ad81-8a44e86c779f.png" width = "600">
 
 
@@ -100,5 +102,21 @@
   ![image](https://user-images.githubusercontent.com/57228346/197421916-51a08520-24df-4da7-a702-79951bcae34b.png)
 
 
+### Eigen(PCA data, components = 3 (to match k = 3))
+
+#### Optimal sigma for adjacency matrix in NJW algorithm
+* Sigma for highest rand index = 0.20
+<img src = "https://user-images.githubusercontent.com/57228346/197422394-d1c8b9d0-1715-49b0-9a1d-2cd37b85b683.png" width = "600"> 
+
+* Sigma for highest rand index = 0.25
+<img src = "https://user-images.githubusercontent.com/57228346/197422440-50a61e6e-a131-4912-9cf2-7377eed82e01.png" width = "600">
 
 
+##### KMeans on unnormalized and normalized eigen (NJW algorithm) of pca data, k = 3, sigma = 0.20 (unnormalized) and 0.25 (normalized)
+<img src = "https://user-images.githubusercontent.com/57228346/197422586-d2c07a29-c5a1-4d18-8b1e-e22b2d9c06c4.png" width = "600">
+
+**Unnormalized Eigen (PCA data), sigma = 0.20**
+  ![image](https://user-images.githubusercontent.com/57228346/197422690-ede12f21-ce9e-4c14-8fd9-02250fb8659b.png)
+  
+**Normalized Eigen (PCA data), sigma = 0.25**
+  ![image](https://user-images.githubusercontent.com/57228346/197422699-597fdbf4-9e0a-44a3-a3e5-dc736d1d0fe8.png)
