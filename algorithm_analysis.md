@@ -42,10 +42,10 @@
 
 #### Optimal sigma for adjacency matrix in NJW algorithm
 * Sigma for highest rand index = 91
-<img src = "https://user-images.githubusercontent.com/57228346/197412509-b4f373be-c4e6-43ea-949d-6547a89d88a3.png" width = "600"> 
+<img src = "https://user-images.githubusercontent.com/57228346/197412509-b4f373be-c4e6-43ea-949d-6547a89d88a3.png" width = "750"> 
 
 * Sigma for highest rand index = 99
-<img src = "https://user-images.githubusercontent.com/57228346/197413400-6619c689-1df3-476b-b54c-2d74491ff0c1.png" width = "600">
+<img src = "https://user-images.githubusercontent.com/57228346/197413400-6619c689-1df3-476b-b54c-2d74491ff0c1.png" width = "750">
 
 ##### KMeans on unnormalized and normalized eigen (NJW algorithm) of original data, k = 3, sigma = 99
 <img src = "https://user-images.githubusercontent.com/57228346/197419477-4304ba05-baf9-4fdc-b4b8-ec56edbe16fc.png" width = "600">
@@ -64,10 +64,10 @@
 
 #### Optimal sigma for adjacency matrix in NJW algorithm
 * Sigma for highest rand index = 0.5
-<img src = "https://user-images.githubusercontent.com/57228346/197419253-ebbf4d87-7a98-454d-8a21-be22dcd2936a.png" width = "600"> 
+<img src = "https://user-images.githubusercontent.com/57228346/197419253-ebbf4d87-7a98-454d-8a21-be22dcd2936a.png" width = "750"> 
 
 * Sigma for highest rand index = 0.3
-<img src = "https://user-images.githubusercontent.com/57228346/197419179-f9fa7c0b-9fea-4ad4-8bbb-0239adc30898.png" width = "600">
+<img src = "https://user-images.githubusercontent.com/57228346/197419179-f9fa7c0b-9fea-4ad4-8bbb-0239adc30898.png" width = "750">
 
 ##### KMeans on unnormalized and normalized eigen (NJW algorithm) of normalized data, k = 3, sigma = 0.5 (unnormalized) and 0.3 (normalized)
 <img src = "https://user-images.githubusercontent.com/57228346/197420297-e84c5cac-755a-436c-99eb-545b69e1a127.png" width = "600">
@@ -84,10 +84,10 @@
 
 #### Optimal sigma for adjacency matrix in NJW algorithm
 * Sigma for highest rand index = 0.35
-<img src = "https://user-images.githubusercontent.com/57228346/197421404-695aa420-232e-4de5-ba9d-2754fd0b50c3.png" width = "600"> 
+<img src = "https://user-images.githubusercontent.com/57228346/197421404-695aa420-232e-4de5-ba9d-2754fd0b50c3.png" width = "750"> 
 
 * Sigma for highest rand index = 0.20
-<img src = "https://user-images.githubusercontent.com/57228346/197421418-112b6d14-7990-4621-bb99-299bd5ea1507.png" width = "600">
+<img src = "https://user-images.githubusercontent.com/57228346/197421418-112b6d14-7990-4621-bb99-299bd5ea1507.png" width = "750">
 
 
 ##### KMeans on unnormalized and normalized eigen (NJW algorithm) of pca data, k = 3, sigma = 0.35 (unnormalized) and 0.20 (normalized)
@@ -105,10 +105,10 @@
 
 #### Optimal sigma for adjacency matrix in NJW algorithm
 * Sigma for highest rand index = 0.20
-<img src = "https://user-images.githubusercontent.com/57228346/197422394-d1c8b9d0-1715-49b0-9a1d-2cd37b85b683.png" width = "600"> 
+<img src = "https://user-images.githubusercontent.com/57228346/197422394-d1c8b9d0-1715-49b0-9a1d-2cd37b85b683.png" width = "750"> 
 
 * Sigma for highest rand index = 0.25
-<img src = "https://user-images.githubusercontent.com/57228346/197422440-50a61e6e-a131-4912-9cf2-7377eed82e01.png" width = "600">
+<img src = "https://user-images.githubusercontent.com/57228346/197422440-50a61e6e-a131-4912-9cf2-7377eed82e01.png" width = "750">
 
 
 ##### KMeans on unnormalized and normalized eigen (NJW algorithm) of pca data, k = 3, sigma = 0.20 (unnormalized) and 0.25 (normalized)
