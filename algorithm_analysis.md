@@ -18,7 +18,6 @@
 
 ## Cluster analysis (number of clusters = 3)
 
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 ### Original data
 
 ##### Spectral clustering on original, normalized(original) and PCA(normalized) data, k = 3, sigma = NA (kNN graph)
