@@ -34,7 +34,7 @@
   
 * Normalized(Original) data provides the best cluster seperation, as well as class label separation.
 * Inferior cluster separation for original silhouette values under 0 and adjusted randsignificantly close to 0
-* PCA (2 components) was performed on the normalized dataframe and it slightly decreased cluster seperation, which shows it might be a redundant step for spectral analysis
+* PCA were performed on the normalized dataframe which slightly decreased cluster seperation, which shows it might be a redundant step for spectral analysis
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
