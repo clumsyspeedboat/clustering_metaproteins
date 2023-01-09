@@ -1,5 +1,4 @@
 # NodeClust
 A plug-in to perform clustering in Neo4j.
 
-![Methodology.png](images/Methodology.png)
-
+<img src="./images/Methodology.png" alt="methodology">
