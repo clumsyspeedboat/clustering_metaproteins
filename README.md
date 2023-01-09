@@ -1,5 +1,4 @@
-# NodeClust
-A plug-in to perform clustering in Neo4j.
+# Learning from the Eigenvalues of Metaproteomic Abundance Data - Spectral Clustering & Classification
 
 
 ![Methodology](./images/Methodology.png)
